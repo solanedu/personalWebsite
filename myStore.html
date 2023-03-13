@@ -1,0 +1,106 @@
+<!--Eduardo Solano 
+    CPS3500
+    Personal Website
+-->
+
+<!DOCTYPE html>
+<html>  
+
+    <head>
+        <title>My Store</title>
+        <meta name="description" content="This is the description">
+        <script src="store.js" async></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styleStore.css" />
+    </head>
+
+    <body> 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="myStore.html">My Store</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="aboutMe.html">About Me</a>
+                        <a class="nav-link" href="myWork.html">My Work</a>
+                        <a class="nav-link" href="contactMe.html">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="container content-section">
+            <h1 class="first-header">My Store</h1>
+            <h2 class="section-header py-4">Soccer balls</h2>
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Item 1</span>
+                        <img class="shop-item-image" src="barcaBall.jpeg">
+                            <div class="shop-item-details">
+                            <span class="shop-item-price">$19.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Item 2</span>
+                    <img class="shop-item-image" src="nikeBall.jpeg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$16.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Item 3</span>
+                <img class="shop-item-image" src="adiBall.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Item 4</span>
+                <img class="shop-item-image" src="pumaBall.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$15.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <!--Footer-->
+    <footer class="footer border-top py-2">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href = "https://github.com/solanedu"><i class="fa fa-github p-3" style="color:#800020;"></i></a>
+                    <a href = "https://www.linkedin.com"><i class="fa fa-linkedin" style="color:#800020;"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    </body>
+</html>
